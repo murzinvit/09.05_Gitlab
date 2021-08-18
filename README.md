@@ -38,4 +38,5 @@ Gitlab репозиторий, ветка main [https://gitlab.com/evo_g/netolog
 Разработчики выполнили новый Issue, необходимо проверить валидность изменений, поднять контейнер проверить вывод метода get_info: </br>
 1) docker pull registry.gitlab.com/evo_g/netology-6/python-api </br>
 2) docker run -d --name netology -p 5290:5290 registry.gitlab.com/evo_g/netology-6/python-api:latest </br>
-3) 
+3) curl localhost:5290
+4) Issue canceled
