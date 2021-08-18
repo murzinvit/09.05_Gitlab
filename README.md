@@ -7,4 +7,5 @@
 ### Основная часть </br>
 DevOps </br>
 В репозитории содержится код проекта на python. Проект - RESTful API сервис. Ваша задача автоматизировать сборку образа с выполнением python-скрипта: </br>
+Gitlab репозиторий [https://gitlab.com/evo_g/netology-6](https://gitlab.com/evo_g/netology-6)</br>
 ![ci_complit](https://github.com/murzinvit/screen/blob/264a4db5925bcc9a08242e9ec016cc17b551b459/GITLAB/Git_lab_CI_complit.jpg)</br>
