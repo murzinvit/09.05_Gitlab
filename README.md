@@ -4,6 +4,8 @@
 1) Регистрация на gitlab в saas [https://gitlab.com/murzinvit](https://gitlab.com/murzinvit)</br>
 2) Создание проекта в gitlab [https://gitlab.com/evo_g/netology-6](https://gitlab.com/evo_g/netology-6)</br>
 3) Перенос файлов в репозиторий [gitlab](https://github.com/murzinvit/screen/blob/0fcbe00c43537b2c3095d025215bc528a766e2fb/GITLAB/gitlab.jpg) </br>
+4) Добавление ssh ключа - Login -> preferences. </br>
+
 ### Основная часть </br>
 ### DevOps </br>
 В репозитории содержится код проекта на python. Проект - RESTful API сервис. Ваша задача автоматизировать сборку Docker образа с выполнением python-скрипта: </br>
@@ -28,4 +30,6 @@ Gitlab репозиторий, ветка main [https://gitlab.com/evo_g/netolog
 Вам пришел новый Issue на доработку: </br>
 
 ### Tester </br>
-Разработчики выполнили новый Issue, необходимо проверить валидность изменений: </br>
+Разработчики выполнили новый Issue, необходимо проверить валидность изменений, поднять контейнер проверить вывод метода get_info: </br>
+1) docker pull registry.gitlab.com/evo_g/netology-6/python-api </br>
+2) docker run -d --name netology -p 5290:5290 registry.gitlab.com/evo_g/netology-6/python-api:latest </br>
