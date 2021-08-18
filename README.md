@@ -11,3 +11,12 @@ Gitlab репозиторий [https://gitlab.com/evo_g/netology-6](https://gitl
 
 ### Результат выполнения CI:</br>
 ![ci_complit](https://github.com/murzinvit/screen/blob/264a4db5925bcc9a08242e9ec016cc17b551b459/GITLAB/Git_lab_CI_complit.jpg)</br>
+
+### Product Owner</br>
+Вашему проекту нужна бизнесовая доработка: необходимо поменять JSON ответа на вызов метода GET /rest/api/get_info </br>
+
+### Developer </br>
+Вам пришел новый Issue на доработку: </br>
+
+### Tester </br>
+Разработчики выполнили новый Issue, необходимо проверить валидность изменений: </br>
