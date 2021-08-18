@@ -14,10 +14,15 @@ Gitlab репозиторий, ветка main [https://gitlab.com/evo_g/netolog
 
 ### Product Owner</br>
 Проекту нужна бизнесовая доработка: необходимо поменять JSON ответа на вызов метода GET /rest/api/get_info, с { "message": "Already started" } на { "message": "Running"}</br>
-Создал ветку [dev](https://gitlab.com/evo_g/netology-6/-/tree/dev), изменил выводимый текст, сделал сборку по ветке dev:</br>
+В issue создал ветку [1-modify-get_info](https://gitlab.com/evo_g/netology-6/-/tree/dev), изменил выводимый текст, далее сборка по ветке 1-modify-get_info:</br>
 
 ### Результат выполнения CI:</br>
-![Build_on_dev](https://github.com/murzinvit/screen/blob/50ecf0091f6815d2106e44cbd3464ccd3b86c8fa/GITLAB/Build_on_dev.jpg)</br>
+![Build_on_1-modify-get_info](https://github.com/murzinvit/screen/blob/ac22bbcf6de8c2ef57d7b3034b38186543cae306/GITLAB/Build_in_dev_branch.jpg)</br>
+
+### Результат Merge request: </br>
+![Merged](https://github.com/murzinvit/screen/blob/f8c99c101ec09581521879f7deaa765649786e8a/GITLAB/Merged.jpg) </br>
+### Результат Build </br>
+![Result](https://github.com/murzinvit/screen/blob/0feaae0ae6bdcbdfc9a48ae7e0026ec4b99d6e3c/GITLAB/Build_merged_result.jpg) </br>
 
 ### Developer </br>
 Вам пришел новый Issue на доработку: </br>
